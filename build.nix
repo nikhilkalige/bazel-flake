@@ -212,7 +212,7 @@ buildBazelPackage {
 
   buildAttrs = {
     patches = [
-      "${nixpkgs}/pkgs/development/tools/build-managers/bazel/bazel_4/no-arc.patch"
+      # "${nixpkgs}/pkgs/development/tools/build-managers/bazel/bazel_4/no-arc.patch"
       "${nixpkgs}/pkgs/development/tools/build-managers/bazel/trim-last-argument-to-gcc-if-empty.patch"
 
       (
